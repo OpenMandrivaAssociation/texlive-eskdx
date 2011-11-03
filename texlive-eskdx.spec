@@ -1,3 +1,9 @@
+# revision 22465
+# category Package
+# catalog-ctan /macros/latex/contrib/eskdx
+# catalog-date 2011-05-13 21:22:08 +0200
+# catalog-license lppl1.3
+# catalog-version 0.98
 Name:		texlive-eskdx
 Version:	0.98
 Release:	1
@@ -130,6 +136,7 @@ probably post USSR) standards for designers.
 %doc %{_texmfdistdir}/doc/latex/eskdx/test/spec.tex
 %doc %{_texmfdistdir}/doc/latex/eskdx/test/specii.tex
 %doc %{_texmfdistdir}/doc/latex/eskdx/test/twoside.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -140,3 +147,5 @@ probably post USSR) standards for designers.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
