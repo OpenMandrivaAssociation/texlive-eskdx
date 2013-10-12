@@ -1,12 +1,12 @@
-# revision 22465
+# revision 29235
 # category Package
 # catalog-ctan /macros/latex/contrib/eskdx
-# catalog-date 2011-05-13 21:22:08 +0200
+# catalog-date 2012-03-05 13:28:00 +0100
 # catalog-license lppl1.3
 # catalog-version 0.98
 Name:		texlive-eskdx
 Version:	0.98
-Release:	2
+Release:	3
 Summary:	Modern Russian typesetting
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eskdx
@@ -137,17 +137,3 @@ probably post USSR) standards for designers.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.98-2
-+ Revision: 751579
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.98-1
-+ Revision: 718368
-- texlive-eskdx
-- texlive-eskdx
-- texlive-eskdx
-- texlive-eskdx
-
