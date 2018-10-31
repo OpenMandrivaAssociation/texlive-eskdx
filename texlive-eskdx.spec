@@ -6,7 +6,7 @@
 # catalog-version 0.98
 Name:		texlive-eskdx
 Version:	0.98
-Release:	11
+Release:	12
 Summary:	Modern Russian typesetting
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eskdx
