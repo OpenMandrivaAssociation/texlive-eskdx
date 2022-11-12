@@ -1,18 +1,12 @@
-# revision 29235
-# category Package
-# catalog-ctan /macros/latex/contrib/eskdx
-# catalog-date 2012-03-05 13:28:00 +0100
-# catalog-license lppl1.3
-# catalog-version 0.98
 Name:		texlive-eskdx
-Version:	0.98
-Release:	12
+Version:	29235
+Release:	1
 Summary:	Modern Russian typesetting
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eskdx
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eskdx.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eskdx.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eskdx.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eskdx.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +18,12 @@ textual and graphical documents in accordance with Russian (and
 probably post USSR) standards for designers.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -130,7 +124,7 @@ probably post USSR) standards for designers.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
