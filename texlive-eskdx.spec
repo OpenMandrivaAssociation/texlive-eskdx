@@ -1,6 +1,6 @@
 Name:		texlive-eskdx
 Version:	29235
-Release:	1
+Release:	2
 Summary:	Modern Russian typesetting
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eskdx
