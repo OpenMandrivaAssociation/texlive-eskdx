@@ -3,7 +3,7 @@ Version:	29235
 Release:	2
 Summary:	Modern Russian typesetting
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eskdx
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/eskdx
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eskdx.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eskdx.doc.r%{version}.tar.xz
